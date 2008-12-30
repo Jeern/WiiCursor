@@ -1,0 +1,11 @@
+﻿<Window x:Class="DrawCursor.DrawWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DrawWindow" AllowsTransparency="True" WindowStyle="None" Opacity="1" OpacityMask="OrangeRed" ShowInTaskbar="False" Topmost="True">
+    <InkCanvas Name="DrawArea">
+        <InkCanvas.DefaultDrawingAttributes>
+            <DrawingAttributes Color="OrangeRed" Height="5" Width="5" />
+        </InkCanvas.DefaultDrawingAttributes>
+        <Image Name="BackGroundImage" />
+    </InkCanvas>    
+</Window>

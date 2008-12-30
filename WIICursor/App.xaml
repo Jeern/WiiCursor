@@ -1,0 +1,12 @@
+﻿<Application x:Class="WiiCursor.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <Image x:Key="WiiCursor"  Stretch="None"  Source="Images/generic_point.png" Margin="0,0,0,0" />
+        <Image x:Key="WiiCursor1" Stretch="None" Source="Images/player1_point.png"  Margin="0,0,0,0" />
+        <Image x:Key="WiiCursor2" Stretch="None" Source="Images/player2_point.png"  Margin="0,0,0,0" />
+        <Image x:Key="WiiCursor3" Stretch="None" Source="Images/player3_point.png"  Margin="0,0,0,0" />
+        <Image x:Key="WiiCursor4" Stretch="None" Source="Images/player4_point.png"  Margin="0,0,0,0" />
+        <Image x:Key="WiiCursorShadow" Stretch="None" Source="Images/shadow_point.png"  Margin="0,0,0,0"  />
+    </Application.Resources>
+</Application>

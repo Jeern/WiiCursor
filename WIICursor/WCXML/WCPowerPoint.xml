@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WCConfiguration>
+  <Name>Powerpoint Support</Name>
+  <Default>false</Default>
+  <ConnectionWaitTime>5000</ConnectionWaitTime>
+  <ConnectionRetries>50</ConnectionRetries>
+  <Keys>
+    <A>MouseLeftButtonDown</A>
+    <B>KeyEscape</B>
+    <Plus>MouseLeftClick</Plus>
+    <Minus>KeyArrowUp</Minus>
+    <Home>KeyF5</Home>
+    <One>Exit</One>
+    <Two>Pause</Two>
+    <Up></Up>
+    <Down></Down>
+    <Left></Left>
+    <Right>KeyF7</Right>
+  </Keys>
+</WCConfiguration>

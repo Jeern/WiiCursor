@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIICursor", "WIICursor\WIICursor.csproj", "{6371F847-5735-49B8-BD9E-520117EBBC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursorCommon", "WIICursorCommon\CursorCommon.csproj", "{A19FAAAB-A3F0-452D-AE10-419DE693383D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawCursor", "DrawCursor\DrawCursor.csproj", "{EAC1104E-CDB0-4B4A-A841-2C38C0326CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{147F58C8-52E7-4FBD-93A3-5A7B2E4945BF}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\dc128.ico = Lib\dc128.ico
+		Lib\dc128c.ico = Lib\dc128c.ico
+		Lib\dc16.ico = Lib\dc16.ico
+		Lib\dc24.ico = Lib\dc24.ico
+		Lib\dc24c.ico = Lib\dc24c.ico
+		Lib\dc256.bmp = Lib\dc256.bmp
+		Lib\dc256.ico = Lib\dc256.ico
+		Lib\dc256c.ico = Lib\dc256c.ico
+		Lib\dc32.ico = Lib\dc32.ico
+		Lib\dc32c.ico = Lib\dc32c.ico
+		Lib\dc48.ico = Lib\dc48.ico
+		Lib\dc48c.ico = Lib\dc48c.ico
+		Lib\dc64.ico = Lib\dc64.ico
+		Lib\dc64c.ico = Lib\dc64c.ico
+		Lib\wc128.ico = Lib\wc128.ico
+		Lib\wc128c.ico = Lib\wc128c.ico
+		Lib\wc16.ico = Lib\wc16.ico
+		Lib\wc24.ico = Lib\wc24.ico
+		Lib\wc24c.ico = Lib\wc24c.ico
+		Lib\wc256.bmp = Lib\wc256.bmp
+		Lib\wc256.ico = Lib\wc256.ico
+		Lib\wc256c.ico = Lib\wc256c.ico
+		Lib\wc32.ico = Lib\wc32.ico
+		Lib\wc32c.ico = Lib\wc32c.ico
+		Lib\wc48.ico = Lib\wc48.ico
+		Lib\wc48c.ico = Lib\wc48c.ico
+		Lib\wc64.ico = Lib\wc64.ico
+		Lib\wc64c.ico = Lib\wc64c.ico
+		Lib\WiimoteLib.dll = Lib\WiimoteLib.dll
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DrawCursorSetup", "DrawCursorSetup\DrawCursorSetup.vdproj", "{BCB7D68F-1972-43CC-A68C-CF68192A10F8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WiiCursorSetup", "WiiCursorSetup\WiiCursorSetup.vdproj", "{E2D8B587-9723-4887-9396-A15FE8D9F783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{3DC285F3-84DB-4944-AD99-22712ECA58A7}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\ReadMeDrawCursor.docx = Documents\ReadMeDrawCursor.docx
+		Documents\ReadMeDrawCursor.pdf = Documents\ReadMeDrawCursor.pdf
+		Documents\ReadMeWiiCursor.docx = Documents\ReadMeWiiCursor.docx
+		Documents\ReadMeWiiCursor.pdf = Documents\ReadMeWiiCursor.pdf
+		Documents\WiiCursor.pptx = Documents\WiiCursor.pptx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6371F847-5735-49B8-BD9E-520117EBBC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6371F847-5735-49B8-BD9E-520117EBBC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6371F847-5735-49B8-BD9E-520117EBBC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6371F847-5735-49B8-BD9E-520117EBBC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19FAAAB-A3F0-452D-AE10-419DE693383D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19FAAAB-A3F0-452D-AE10-419DE693383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19FAAAB-A3F0-452D-AE10-419DE693383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19FAAAB-A3F0-452D-AE10-419DE693383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC1104E-CDB0-4B4A-A841-2C38C0326CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC1104E-CDB0-4B4A-A841-2C38C0326CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC1104E-CDB0-4B4A-A841-2C38C0326CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC1104E-CDB0-4B4A-A841-2C38C0326CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB7D68F-1972-43CC-A68C-CF68192A10F8}.Debug|Any CPU.ActiveCfg = Debug
+		{BCB7D68F-1972-43CC-A68C-CF68192A10F8}.Release|Any CPU.ActiveCfg = Release
+		{BCB7D68F-1972-43CC-A68C-CF68192A10F8}.Release|Any CPU.Build.0 = Release
+		{E2D8B587-9723-4887-9396-A15FE8D9F783}.Debug|Any CPU.ActiveCfg = Debug
+		{E2D8B587-9723-4887-9396-A15FE8D9F783}.Release|Any CPU.ActiveCfg = Release
+		{E2D8B587-9723-4887-9396-A15FE8D9F783}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

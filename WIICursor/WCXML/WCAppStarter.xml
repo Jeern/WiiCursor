@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WCConfiguration>
+  <Name>DoubleClick Example</Name>
+  <Default>false</Default>
+  <ConnectionWaitTime>5000</ConnectionWaitTime>
+  <ConnectionRetries>50</ConnectionRetries>
+  <Keys>
+    <A>MouseLeftDoubleClick</A>
+    <B>Exit</B>
+    <Plus></Plus>
+    <Minus></Minus>
+    <Home></Home>
+    <One></One>
+    <Two>Pause</Two>
+    <Up></Up>
+    <Down></Down>
+    <Left></Left>
+    <Right></Right>
+  </Keys>
+</WCConfiguration>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WCConfiguration>
+  <Name>DrawCursor Support</Name>
+  <Default>true</Default>
+  <ConnectionWaitTime>5000</ConnectionWaitTime>
+  <ConnectionRetries>50</ConnectionRetries>
+  <Keys>
+    <A>MouseLeftButtonDown</A>
+    <B>KeyEscape+Exit</B>
+    <Plus>KeyF7</Plus>
+    <Minus></Minus>
+    <Home></Home>
+    <One>KeyDelete</One>
+    <Two>Pause</Two>
+    <Up></Up>
+    <Down></Down>
+    <Left></Left>
+    <Right></Right>
+  </Keys>
+</WCConfiguration>
